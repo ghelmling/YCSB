@@ -13,6 +13,7 @@
 
   <properties>
      <jackson.api.version>1.9.4</jackson.api.version>
+     <hdrhistogram.version>2.0.3</hdrhistogram.version>
   </properties>
 
   <dependencies>	
@@ -25,6 +26,11 @@
       <groupId>org.codehaus.jackson</groupId>
       <artifactId>jackson-core-asl</artifactId>
       <version>${jackson.api.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hdrhistogram</groupId>
+      <artifactId>HdrHistogram</artifactId>
+      <version>${hdrhistogram.version}</version>
     </dependency>
     <dependency>
       <groupId>org.testng</groupId>
